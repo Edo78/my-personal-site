@@ -4,6 +4,11 @@ export default {
   title: 'Category',
   fields: [
     {
+      name: 'weight',
+      type: 'number',
+      title: 'Weight'
+    },
+    {
       name: 'title',
       type: 'string',
       title: 'Title'
